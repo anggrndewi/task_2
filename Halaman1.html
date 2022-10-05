@@ -4,9 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pendaftaran</title>
+    <title>Formulir Pendaftaran</title>
 </head>
 <body>
-    
+    <h2>FORMULIR PENDAFTARAN</h2>
+    <table>
+        <form action="">
+            <tr>
+                <td> Nama</td>
+                <td> : <input type="text" name="nama"> </td>
+            </tr>
+
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td> : <input type="radio" name="jenis_kelamin" value="Pria"> Pria 
+                        <input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan </td>
+            </tr>
+
+            <tr>
+                <td> Alamat </td>
+                <td> : <input type="textarea" name="alamat"> </td>
+            </tr>
+
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td> : <input type="date" name="tangal" ></td>
+            </tr>
+
+            <tr>
+                <td> Pendidikan Terakhir </td>
+                <td> : <input type="textarea" name="pendidikan"> </td>
+            </tr>
+
+            <tr>
+                <td> Kelas yang akan diambil</td>
+                <td> : <select name="kelas">
+                    <option value="Pilih">Pilih</option>
+                    <option value="Web Program"> Web Program </option>
+                    <option value="Internet Marketing"> Internet Marketing </option>
+                    <option value="Multimedia">Multimedia</option>
+                    <option value="Office Perkantoran">Office Perkantoran</option>
+                    <option value="Desain Grafis">Desain Grafis</option>
+                    <option value="Teknisi">Teknisi</option>
+                </select> </td>
+            </tr>
+
+            <tr>
+                <td>Agama</td>
+                <td> : <select name="agama">
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Budha">Budha</option>
+                    <option value="Katolik">Katolik</option>
+                    <option value="Hindu">Hindu</option>
+                </select> </td>
+            </tr>
+
+            <tr>
+                <td>Nomer Telepon</td>
+                <td> : <input type="text" name="telpon"> </td>
+            </tr>
+
+            <tr>
+                <td>Email</td>
+                <td> : <input type="email" name="email"> </td>
+            </tr>
+
+            <tr>
+                <td>Foto</td>
+                <td> : <input type="file" name="foto"> </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="submit" nama="kirim" value="Kirim">
+                    <input type="reset" name="hapus" value="hapus">
+                </td>
+            </tr>
+        </form>
+    </table>
 </body>
 </html>
