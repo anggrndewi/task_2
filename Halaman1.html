@@ -5,53 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulir Pendaftaran</title>
-
-    <style>
-
-        body {
-            background-image: linear-gradient(to left,rgb(16, 209, 235), rgb(142, 196, 228), rgb(236, 241, 243));
-            background-position: center;
-            
-        }
-
-        h2 {
-            font-family: 'Times New Roman', Times, serif;
-            text-align: center;
-        }
-
-        input {
-            margin-bottom: 15px;
-            padding: 5px 10px;
-            background-color: transparent;
-            border: none;
-            border-bottom: 2px dotted rgb(15, 143, 218);
-            font-size: 15px;
-            font-family: 'Times New Roman', Times, serif;
-        }
-
-        select {
-            margin-bottom: 10px;
-            padding: 5px 10px;
-            background-color: rgb(133, 133, 228);
-            border:none;
-        }
-
-        button {
-            width: 50px;
-            border: none;
-            background-image: linear-gradient(to right, rgb(28, 28, 133), rgb(128, 128, 219));
-        }
-
-    </style>
-
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
     <h2>FORMULIR PENDAFTARAN</h2>
     <table>
-        <form action="">
+        <form action="action.php" method="GET">
             <tr>
                 <td> Nama</td>
-                <td> : <input type="text" name="nama" value="Nama Lengkap"> </td>
+                <td> : <input type="text" name="nama"> </td>
             </tr>
 
             <tr>
@@ -107,11 +69,6 @@
             <tr>
                 <td>Email</td>
                 <td> : <input type="email" name="email"> </td>
-            </tr>
-
-            <tr>
-                <td>Foto</td>
-                <td> : <input type="file" name="foto"> </td>
             </tr>
 
             <tr>
