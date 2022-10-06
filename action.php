@@ -26,15 +26,15 @@
     <h2><b><p>Data Pendaftar</p></b></h2>
     <table border="1">
         <tr>
-            <td>Nama</td>
-            <td>Jenis Kelamin</td>
-            <td>Alamat</td>
-            <td>Tanggal Lahir</td>
-            <td>Pendidikan Terakhir</td>
-            <td>Kelas yang akan diambil</td>
-            <td>Agama</td>
-            <td>Nomor Telepon</td>
-            <td>Email</td>
+            <td align="center">Nama</td>
+            <td align="center">Jenis Kelamin</td>
+            <td align="center">Alamat</td>
+            <td align="center">Tanggal Lahir</td>
+            <td align="center">Pendidikan Terakhir</td>
+            <td align="center">Kelas yang akan diambil</td>
+            <td align="center">Agama</td>
+            <td align="center">Nomor Telepon</td>
+            <td align="center">Email</td>
         </tr>
 
         <tr>
